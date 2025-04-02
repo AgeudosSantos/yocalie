@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte1: verdana, geneva, tahoma, sans-serif;
+    --fonte1: verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'passion one', cursive;
     --fonte3: 'Sriracha', cursive;
 }
@@ -17,12 +17,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: rgba(255, 192, 203, 0.219);
     font-family: var(--fonte1);
 }
 
 header {
-    background-color: rgba(252, 80, 137, 0.884);
+    background-color: rgba(253, 100, 126, 0.884);
+    background-position: center;
     color: black;
     text-align: center;
 }
@@ -36,7 +37,6 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-
 }
 
 header a, footer a {
@@ -56,6 +56,9 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    text-align: center;
+    margin: auto;
+    width: 80vw;
 }
 
 section > p {
@@ -65,34 +68,109 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
+    padding-bottom: 0px;
 }
 
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
-
-
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.534);
     text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/anacapa.jpg);
     background-position: right center;
-
 }
 
 section#img02 {
     background-image: url(../imagens/background002.jpg);
+}
 
+section#img03 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img04 {
+    background-image: url(../imagens/anapo.jpg);
+}
+
+section#img05 {
+    background-image: url(../imagens/anamar.jpg);
+}
+
+section#img06 {
+    background-image: url(../imagens/anamacho.jpg);
+}
+
+section#img07 {
+    background-image: url(../imagens/anapoe.jpg);
+}
+
+section#img08 {
+    background-image: url(../imagens/anaf.jpg);
+}
+
+section#img09 {
+    background-image: url(../imagens/anaa.jpg);
+}
+
+section#img010 {
+    background-image: url(../imagens/anato.jpg);
+}
+
+section#img011 {
+    background-image: url(../imagens/anali.jpg);
+}
+
+section#img012 {
+    background-image: url(../imagens/anaan.jpg);
+}
+
+section#img013 {
+    background-image: url(../imagens/aname.jpg);
+}
+
+section#img014 {
+    background-image: url(../imagens/anama.jpg);
+    background-position: top center;
+}
+
+section#img015 {
+    background-image: url(../imagens/anagor.jpg);
+}
+
+section.link {
+    background-color: white;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section.link > p > a:hover {
+    background-color: pink;
+}
+
+a#prev {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+a#next {
+    display: block;
+    color: black;
+    text-decoration: none;
 }
 
 footer {
@@ -100,4 +178,5 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
+    font-size: 0.8em;
 }
