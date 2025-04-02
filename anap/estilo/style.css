@@ -57,8 +57,6 @@ section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
     text-align: center;
-    margin: auto;
-    width: 80vw;
 }
 
 section > p {
