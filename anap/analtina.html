@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel Moderno</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
@@ -12,18 +13,18 @@
         <h1>Sentimentos Escritos</h1>
 
         <p>
-            Por <a href="https://www.facebook.com/dinilsiadasilva.linda">Analtina Constântino</a>
+            Por: <a href="https://www.facebook.com/dinilsiadasilva.linda">Analtina Constântino</a>
         </p>
-
-        <menu>
+        <i id="menulist" class="matrial-icons" onclick="clickMenu">menu_open</i>
+        <menu id="itens">
             <ul>
-                <li>Podes Ir</li>
-                <li>O Amor Não É Para Mim</li>
-                <li>Não Sou Mulher De Disputar Por Macho</li>
-                <li>É Sempre Culpa Do Amor</li>
-                <li>Tóxico</li>
-                <li>Como Eu Era Antes De Você</li>
-                <li>Eu era magra</li>
+                <li><a href="pag002.html">Podes Ir</a></li>
+                <li><a href="pag003.html">O Amor Não É Para Mim</a></li>
+                <li><a href="pag004.html">Não Sou Mulher De Disputar Por Macho</a></li>
+                <li><a href="pag005.html">É Sempre Culpa Do Amor</a></li>
+                <li><a href="pag006.html">Tóxico</a></li>
+                <li><a href="pag007.html">Como Eu Era Antes De Você</a></li>
+                <li><a href="pag008.html">Eu era magra</a></li>
             </ul>
         </menu>
     </header>
@@ -109,12 +110,22 @@
 </section>
 
 <section class="link">
-    <P><a href="pag002.html" rel="next" target="_self" id="next">Próximo</a></P>
+    <P><a href="pag002.html" rel="next" target="_self" id="next">Next</a></P>
 </section>
      
 <footer>
     <p>Site criado por <a href="https://www.instagram.com/ageu_ds_santos?igsh=Zm13b2g0dnJwYzF6" target="_blank">Ageu Santos</a> para Analtina Constantino.</p>
 </footer>
+
+<script>
+    function clickMenu {
+        if (itens.style.display == 'block') {
+            itens.style.display ='none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
 
 </body>
 </html>
