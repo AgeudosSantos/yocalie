@@ -64,7 +64,7 @@ span#menulist:hover {
 
 }
 
-header > menu {
+menu#itens {
     display: none;
 }
 

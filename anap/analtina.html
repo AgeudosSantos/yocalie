@@ -16,7 +16,7 @@
         <p>
             Por: <a href="https://www.facebook.com/dinilsiadasilva.linda">Analtina Constântino</a>
         </p>
-        <span id="menulist" class="material-symbols-outlined" onclick="clickMenu">lists</span>
+        <span id="menulist" class="material-symbols-outlined" onclick="clickMenu()">lists</span>
         <menu id="itens">
             <ul>
                 <li><a href="pag002.html">Podes Ir</a></li>
@@ -121,10 +121,11 @@
 <script>
 
 function clickMenu() {
-        if (itens.style.display == 'block') {
-            itens.style.display ='none'
+        const menu = document.getElementById('itens');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
         } else {
-            itens.style.display = 'block'
+            menu.style.display = 'block';
         }
     }
 
