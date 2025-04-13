@@ -10,6 +10,23 @@
 
 <header>
         <h1>"Como Eu Era Antes De Você"</h1>
+
+        <p>
+            Por: <a href="https://www.facebook.com/dinilsiadasilva.linda">Analtina Constântino</a>
+        </p>
+        <span id="menulist" class="material-symbols-outlined" onclick="clickMenu()">lists</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="pag002.html">Podes Ir</a></li>
+                <li><a href="pag003.html">O Amor Não É Para Mim</a></li>
+                <li><a href="pag004.html">Não Sou Mulher De Disputar Por Macho</a></li>
+                <li><a href="pag005.html">É Sempre Culpa Do Amor</a></li>
+                <li><a href="pag006.html">Tóxico</a></li>
+                <li><a href="pag007.html">Como Eu Era Antes De Você</a></li>
+                <li><a href="pag008.html">Eu era magra</a></li>
+            </ul>
+        </menu>
+
 </header>
 
 <section class="normal">
@@ -72,5 +89,17 @@
     <p>Site criado por <a href="https://www.instagram.com/ageu_ds_santos?igsh=Zm13b2g0dnJwYzF6" target="_blank">Ageu Santos</a> para Analtina Constantino.</p>
 </footer>
     
+<script>
+
+    function clickMenu() {
+            const menu = document.getElementById('itens');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    
+    </script>
 </body>
 </html>
