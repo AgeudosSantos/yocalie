@@ -8,3 +8,14 @@
         transform: translate3d(0, 0, 0);
     }
 }
+
+@supports (will-change: transform) {
+    @media screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+        section.imagem {
+            background-size: cover;
+            background-position: center;
+            will-change: transform;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
