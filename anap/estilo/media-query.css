@@ -1,6 +1,18 @@
 @charset "UTF-8";
 
 @media screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    body {
+        font-family: 'Dancing Script', cursive, sans-serif;
+    }
+
+    h1, h2 {
+        font-family: 'Pacifico', cursive;
+    }
+
+    p {
+        font-family: 'Roboto Slab', serif;
+    }
+    
     section.imagem {
         background-size: cover;
         background-position: center;
